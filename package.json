@@ -1,6 +1,10 @@
 {
   "name": "module-export-test-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "license": "MIT",
+  "keywords": [],
+  "author": "Muhammad Riduwan",
+  "description": "",
   "main": "./dist/cjs/index.js",
   "modules": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
@@ -24,10 +28,6 @@
     "dist"
   ],
   "sideEffects": false,
-  "license": "MIT",
-  "keywords": [],
-  "author": "",
-  "description": "",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.3",
     "@rollup/plugin-node-resolve": "^16.0.3",
